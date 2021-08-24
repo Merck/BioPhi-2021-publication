@@ -1,5 +1,7 @@
 # BioPhi 2021 Publication
 
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Merck/BioPhi-2021-publication/main?urlpath=lab/tree/notebooks/reports)
+
 ️❗️ For BioPhi application, see the [BioPhi repository](https://github.com/Merck/BioPhi) ❗️
 
 This repository contains scripts, data and jupyter notebooks used to produce the evaluation results in the BioPhi 2021 publication:
@@ -25,7 +27,11 @@ This data is processed and visualized using the provided [notebooks](notebooks).
 
 ## Notebooks
 
-Final evaluation notebooks are found in [notebooks/reports](notebooks/reports). Notebooks used for data processing are found in [notebooks/processing](notebooks/processing).
+Final evaluation notebooks are found in [notebooks/reports](notebooks/reports). 
+
+Data processing is done using notebooks found in [notebooks/processing](notebooks/processing) and using the provided [Makefile](Makefile).
+
+Run the notebooks in your browser using Binder: [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Merck/BioPhi-2021-publication/main?urlpath=lab/tree/notebooks/reports)
 
 ## Reproducing
 
