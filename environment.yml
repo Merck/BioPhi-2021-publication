@@ -1,0 +1,20 @@
+dependencies:
+  - python = 3.8
+  - pip
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - numpy
+  - biopython
+  - seaborn
+  - scikit-learn
+  - scikit-bio
+  - tqdm
+  - xlrd
+  - abnumber
+  - pip:
+    - logomaker
+    - matplotlib-venn
+    - lxml
+    - umap-learn
+    - fastcluster

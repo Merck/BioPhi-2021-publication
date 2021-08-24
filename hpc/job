@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [[ "$#" -lt 2 ]]; then
+  echo "Usage: $0 TARGET your command in HPC job"
+  exit 2
+fi
+
+set -e 
+
+TARGET=$1
+COMMAND="${@:2}"
+JOB_NAME=$(echo $TARGET|sed 's#/#__#g')
+COMMAND_FILE=log/${JOB_NAME}.command
+LOG_FILE=log/${JOB_NAME}.log
+mkdir -p log
+
+echo "${COMMAND}" > "${COMMAND_FILE}"
+
+$(dirname $0)/qsub-job-impl "$TARGET" "${COMMAND_FILE}" "${LOG_FILE}"

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e 
+
+JOB_MEMORY=${JOB_MEMORY:-20G}
+
+if qsub --version 2>/dev/null | grep PBS >/dev/null; then
+    # Using PBS version of qsub (HPC KTC)
+    JOB_CPUS=${JOB_CPUS:-8}
+    GPU_STRING=''
+    QUEUE='huge'
+    if [[ ! -z "${JOB_GPUS}" ]]; then
+        echo "Requesting ${JOB_GPUS} V100 GPUs"
+        GPU_STRING=":ngpus=${JOB_GPUS}:gputype=V100"
+        QUEUE='craycs'    
+    fi
+    qsub -V -I -q "${QUEUE}" \
+        -l select=1${GPU_STRING}:ncpus=${JOB_CPUS}:mem=${JOB_MEMORY/G/gb}
+else
+    # Using UGE version of qsub (HPC CTC)
+    JOB_CPUS=${JOB_CPUS:-4}
+    qlogin -V -cwd \
+        -l mem_reserve=8G -l mem_free=${JOB_MEMORY} -l h_vmem=${JOB_MEMORY} -pe threads 4
+fi
+
+
+
+
+

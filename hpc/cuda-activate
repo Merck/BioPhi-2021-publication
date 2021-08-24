@@ -1,0 +1,40 @@
+#!/bin/bash
+
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    echo "Usage: source $0"
+    exit 2
+fi
+
+CUDA_VERSION=10.0
+
+source /etc/profile.d/modules.sh
+module load cuda/$CUDA_VERSION
+module load gcc/7.4.0
+
+if [[ -z "$JOB_GPUS" ]] || ! [[ -x "$(command -v nvidia-smi)" ]]; then
+    echo "nvidia-smi not available, did you set JOB_GPUS=?" >&2
+    return
+fi
+
+NUM_REMAINING=$JOB_GPUS
+CUDA_VISIBLE_DEVICES=""
+for devidx in $(seq 1 16);
+do
+    if [[ -z $(nvidia-smi -i $devidx --query-compute-apps=pid --format=csv,noheader) ]]; then
+        if [[ -z "$CUDA_VISIBLE_DEVICES" ]] ; then
+            CUDA_VISIBLE_DEVICES=$devidx
+        else
+            CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES,$devidx
+        fi
+        NUM_REMAINING=$((NUM_REMAINING-1))
+    fi
+    if [[ "$NUM_REMAINING" -le 0 ]]; then
+        break
+    fi
+done
+
+export CUDA_VISIBLE_DEVICES
+
+echo "*******"
+echo "Activated CUDA $CUDA_VERSION, using GPUs: $CUDA_VISIBLE_DEVICES"
+echo "*******"

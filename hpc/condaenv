@@ -1,0 +1,36 @@
+#!/bin/bash
+
+if [[ "$#" -ne 1 ]]; then
+  echo "Usage: $0 environment.yml"
+  exit 2
+fi
+
+set -e 
+
+ENV_YML=$1
+CONDA_ENV=${CONDA_ENV:-./condaenv}
+
+if command -v qsub > /dev/null; then
+    # Running on HPC
+    source /etc/profile.d/modules.sh
+    if qsub --version 2>/dev/null | grep PBS >/dev/null; then
+        # Using PBS version of qsub (HPC KTC)
+        module add anaconda3/2019.10
+        module add gcc/7.4.0
+    else
+        # Using UGE version of qsub (HPC CTC)
+        module add anaconda3/2019.10
+    fi
+fi
+
+$(which conda) --version
+
+if [ -d "$CONDA_ENV" ]; then \
+    echo "Requirements changed: $ENV_YML"
+    echo "Updating existing environment: $CONDA_ENV"
+    source activate ./condaenv || { echo "Error initializing $CONDA_ENV. If the environment is invalid, remove the directory and try again."; exit 2; }
+    $(which conda) env update --file "$ENV_YML"; \
+else \
+    echo "Creating new environment: $CONDA_ENV"
+    $(which conda) env create --prefix="$CONDA_ENV" -f "$ENV_YML"; \
+fi

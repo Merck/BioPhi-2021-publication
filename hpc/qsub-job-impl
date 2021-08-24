@@ -1,0 +1,134 @@
+#!/bin/bash
+
+if [[ "$#" -ne 3 ]]; then
+  echo "Usage: $0 TARGET COMMAND_FILE LOG_FILE"
+  exit 2
+fi
+
+set -e
+
+if [[ "$DEBUG" == 1 ]]; then
+  set -x
+fi
+
+TARGET=$1
+COMMAND_FILE=$2
+LOG_FILE=$3
+
+JOB_MEMORY=${JOB_MEMORY:-20G}
+JOB_NAME=$(echo $TARGET|sed 's#/#__#g')
+mkdir -p $(dirname $TARGET)
+echo "Date: $(date)" > "${LOG_FILE}"
+echo "Command: $(cat ${COMMAND_FILE})" >> "${LOG_FILE}"
+echo "===" >> "${LOG_FILE}"
+
+mark_as_old() {
+    if [[ -e "$1" ]]; then
+        echo "Marking file as old to force reproduction next time: $1"
+        touch -t 201901010000 "$1"
+    fi
+}
+
+is_make_parallel(){
+    for flag in $MAKEFLAGS; do
+        if [[ $flag == "j" ]]; then
+            echo "Running make in parallel without a limit! Cancel using Ctrl+C. Sleeping for a while..."
+            sleep 10
+            return 0
+        fi
+        if [[ $flag == "-j" ]]; then
+            return 0
+        fi
+    done
+    return 1
+}
+
+if command -v qsub > /dev/null && [[ "$LOCAL" != "1" ]]; then
+    if qsub --version 2>/dev/null | grep PBS >/dev/null; then
+        # Using PBS version of qsub (HPC KTC)
+
+        JOB_CPUS=${JOB_CPUS:-8}
+
+        if ! is_make_parallel; then
+            echo "Submitting single job... Use 'make TARGET -j 100' to run using parallel jobs."
+        fi
+
+        GPU_STRING=''
+        JOB_QUEUE=${JOB_QUEUE:-huge}
+        EXTRA_COMMANDS='cd "$PBS_O_WORKDIR"'
+        if [[ ! -z "${JOB_GPUS}" ]]; then
+            echo "Requesting ${JOB_GPUS} V100 GPUs"
+            GPU_STRING=":ngpus=${JOB_GPUS}:gputype=V100"
+            JOB_QUEUE='craycs'
+            EXTRA_COMMANDS="${EXTRA_COMMANDS}; source hpc/cuda-activate"
+        fi
+        echo "==="
+        echo "${EXTRA_COMMANDS}; bash \"$(pwd)/${COMMAND_FILE}\"" | tee $(pwd)/${COMMAND_FILE}.full | \
+            qsub -V -N "${JOB_NAME}" -W block=true -q "${JOB_QUEUE}" \
+                -j oe -o "${LOG_FILE}" \
+                -l select=1${GPU_STRING}:ncpus=${JOB_CPUS}:mem=${JOB_MEMORY/G/gb} \
+                || { \
+                    echo -e "===\nJob failed with exit code: $?" >> ${LOG_FILE}; \
+                    sleep 15; tail -20 "${LOG_FILE}"; \
+                    echo -e "!!!\nTarget '${TARGET}' FAILED. See full log using:\nless ${LOG_FILE}\n!!!"; \
+                    mark_as_old "${TARGET}"; \
+                    exit 1; \
+                   }
+
+        echo -e "===\nJob succeeded."
+        # Wait for files to appear
+        sleep 10
+        if is_make_parallel; then
+            echo "... log tail of ${TARGET}:..."
+            tail "${LOG_FILE}"	
+        else
+            cat "${LOG_FILE}"
+        fi
+        echo -e "Target '${TARGET}' DONE. See full log using:\nless ${LOG_FILE}"
+    else
+        # Using UGE version of qsub (HPC CTC)
+
+        JOB_CPUS=${JOB_CPUS:-4}
+
+        if is_make_parallel; then
+            qsub -V -sync y -j y -b y -cwd \
+                -l mem_reserve=${JOB_MEMORY} -l mem_free=${JOB_MEMORY} -l h_vmem=${JOB_MEMORY} -pe threads "${JOB_CPUS}" \
+                -N ${JOB_NAME} -o "${LOG_FILE}" \
+                bash "${COMMAND_FILE}" \
+                || { \
+                    echo -e "===\nJob failed with exit code: $?" >> ${LOG_FILE}; \
+                    tail -20 ${LOG_FILE}; \
+                    echo -e "!!!\nTarget '${TARGET}' FAILED. See full log using:\nless ${LOG_FILE}\n!!!"; \
+                    mark_as_old "${TARGET}"; \
+                    exit 1; \
+                   }
+
+            echo -e "===\nJob succeeded." >> ${LOG_FILE}
+            echo "Target '${TARGET}' DONE, see log: '${LOG_FILE}'"
+        else
+            echo "Use 'make TARGET -j 100' to run using parallel jobs and store outputs to log directory."
+            echo "Submitting interactive session, printing directly to STDOUT..."
+            echo "==="
+            qrsh -V -b y -cwd -N "${JOB_NAME}" \
+                -l mem_reserve=${JOB_MEMORY} -l mem_free=${JOB_MEMORY} -l h_vmem=${JOB_MEMORY} -pe threads "${JOB_CPUS}" \
+                bash "${COMMAND_FILE}" \
+                || { \
+                    echo -e "===\nJob failed with exit code: $?"; \
+                    echo -e "!!!\nTarget '${TARGET}' FAILED.\n!!!"; \
+                    mark_as_old "${TARGET}"; \
+                    exit 1; \
+                   }
+
+            echo -e "===\nJob succeeded."
+            echo "Target '${TARGET}' DONE."
+        fi
+    fi
+else
+    # Run locally
+    echo "Running locally..."
+    bash "${COMMAND_FILE}" | tee "$LOG_FILE"
+fi
+
+
+
+

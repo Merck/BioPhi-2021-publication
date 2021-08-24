@@ -1,0 +1,34 @@
+#!/bin/bash
+
+if [[ "$#" -lt 2 ]]; then
+  echo "Usage: $0 TARGET your command in conda env"
+  exit 2
+fi
+
+set -e 
+
+TARGET=$1
+COMMAND="${@:2}"
+JOB_NAME=$(echo $TARGET|sed 's#/#__#g')
+
+mkdir -p log
+
+echo "" > log/${JOB_NAME}.command
+
+if command -v qsub > /dev/null; then
+    # Running on HPC
+    echo "source /etc/profile.d/modules.sh" >> log/${JOB_NAME}.command
+    if qsub --version 2>/dev/null | grep PBS >/dev/null; then
+        # Using PBS version of qsub (HPC KTC)
+        echo 'cd "$PBS_O_WORKDIR"' >> log/${JOB_NAME}.command
+        echo "module add anaconda3/2019.10; module add gcc/7.4.0;" >> log/${JOB_NAME}.command
+    else
+        # Using UGE version of qsub (HPC CTC)
+        echo "module add anaconda3/2019.10" >> log/${JOB_NAME}.command
+    fi
+fi
+
+echo "source activate ./condaenv" >> log/${JOB_NAME}.command
+echo "${COMMAND}" >> log/${JOB_NAME}.command
+
+$(dirname $0)/qsub-job-impl "$TARGET" "log/${JOB_NAME}.command" "log/${JOB_NAME}.log"

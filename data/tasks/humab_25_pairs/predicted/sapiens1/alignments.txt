@@ -1,0 +1,274 @@
+AntiCD28 VH (Humanized by BioPhi Sapiens)
+EVKLQQSGPGLVTPSQSLSITCTVSGFSLSDYGVHWVRQSPGQGLEWLGVIWAGGGTNYNSALMSRKSISKDNSKSQVFLKMNSLQADDTAVYYCARDKGYSYYYSMDYWGQGTSVTVSS
++|+||+||||||.|||+||+||||||.|||||||||||||||+|||||||||||||||||||||||.|||.|.||||||||||||.|.||||||||||||||||||||||||||||||||
+QVQLQESGPGLVKPSQTLSLTCTVSGGSLSDYGVHWVRQSPGKGLEWLGVIWAGGGTNYNSALMSRVSISLDTSKSQVFLKMNSLTAADTAVYYCARDKGYSYYYSMDYWGQGTSVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^°          
+AntiCD28 VL (Humanized by BioPhi Sapiens)
+DIETLQSPASLAVSLGQRATISCRASESVEYYVTSLMQWYQQKPGQPPKLLIFAASNVESGVPARFSGSGSGTNFSLNIHPVDEDDVAMYFCQQSRKYVPYTFGGGTKLEIK
+||...|||||||||.|+|||||||||||||||||||||||||||||||||||+||||||||||.|||||||||+|+|.|..|..||||+|+|||||||||||||.|||||||
+DIVMTQSPASLAVSPGERATISCRASESVEYYVTSLMQWYQQKPGQPPKLLIYAASNVESGVPDRFSGSGSGTDFTLTISRVQADDVAVYYCQQSRKYVPYTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^^°         
+
+Bevacizumab VH (Humanized by BioPhi Sapiens)
+EIQLVQSGPELKQPGETVRISCKASGYTFTNYGMNWVKQAPGKGLKWMGWINTYTGEPTYAADFKRRFTFSLETSASTAYLQISNLKNDDTATYFCAKYPHYYGSSHWYFDVWGAGTTVTVSS
+++||||||.||||||.+||||||||||||||||||||+||||+||+||||||||||||||||||||||.|||+||||||||||||||.||||.||||+||||||||||||||||.||.|||||
+QVQLVQSGSELKQPGASVRISCKASGYTFTNYGMNWVRQAPGQGLEWMGWINTYTGEPTYAADFKRRFVFSLDTSASTAYLQISNLKADDTAVYFCARYPHYYGSSHWYFDVWGRGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^^^°          
+Bevacizumab VL (Humanized by BioPhi Sapiens)
+DIQMTQTTSSLSASLGDRVIISCSASQDISNYLNWYQQKPDGTVKVLIYFTSSLHSGVPSRFSGSGSGTDYSLTISNLEPEDIATYYCQQYSTVPWTFGGGTKLEIK
+||||||+.||||||+||||.|+||||||||||||||||||....|+||||||||||||||||||||||||++||||||+||||||||||||||||||||.|||+|||
+DIQMTQSPSSLSASVGDRVTITCSASQDISNYLNWYQQKPGKAPKLLIYFTSSLHSGVPSRFSGSGSGTDFTLTISNLQPEDIATYYCQQYSTVPWTFGQGTKVEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Campath VH (Humanized by BioPhi Sapiens)
+EVKLLESGGGLVQPGGSMRLSCAGSGFTFTDFYMNWIRQPAGKAPEWLGFIRDKAKGYTTEYNPSVKGRFTISRDNTQNMLYLQMNTLRAEDTATYYCAREGHTAAPFDYWGQGVMVTVSS
+||+|+||||||||||||+|||||.|||||||||||||||..||..||+|||||||||||||||||||||||||||+++||||||||+|||||||.|||||||||||||||||||.+|||||
+EVQLVESGGGLVQPGGSLRLSCAASGFTFTDFYMNWIRQAPGKGLEWVGFIRDKAKGYTTEYNPSVKGRFTISRDDSKNMLYLQMNSLRAEDTAVYYCAREGHTAAPFDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^°          
+Campath VL (Humanized by BioPhi Sapiens)
+DIKMTQSPSFLSASVGDRVTLNCKASQNIDKYLNWYQQKLGESPKLLIYNTNNLQTGIPSRFSGSGSGTDFTLTISSLQPEDVATYFCLQHISRPRTFGTGTKLELK
+||+||||||.||||||||||+.|||||||||||||||||.||+||||||||||||||+||||||||||||||||||||||||.||||||||||||||||.|||||+|
+DIQMTQSPSSLSASVGDRVTITCKASQNIDKYLNWYQQKPGEAPKLLIYNTNNLQTGVPSRFSGSGSGTDFTLTISSLQPEDFATYFCLQHISRPRTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Certolizumab VH (Humanized by BioPhi Sapiens)
+QIQLVQSGPELKKPGETVKISCKASGYVFTDYGMNWVKQAPGKAFKWMGWINTYIGEPIYVDDFKGRFAFSLETSASTAFLQINNLKNEDTATYFCARGYRSYAMDYWGQGTSVTVSS
+|+||||||.||||||.+||||||||||.|||||||||+|||||..+||||||||||||||||||||||.|||+||||||||||||||.||||.|||||||||||||||||||.|||||
+QVQLVQSGSELKKPGASVKISCKASGYTFTDYGMNWVRQAPGKGLEWMGWINTYIGEPIYVDDFKGRFVFSLDTSASTAFLQINNLKAEDTAVYFCARGYRSYAMDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^°          
+Certolizumab VL (Humanized by BioPhi Sapiens)
+DIVMTQSQKFMSTSVGDRVSVTCKASQNVGTNVAWYQQKPGQSPKALIYSASFLYSGVPYRFTGSGSGTDFTLTISTVQSEDLAEYFCQQYNIYPLTFGAGTKLELK
+||.||||..|+|.||||||++|||||||||||||||||||||+||.|||||||||||||.||+||||||||||||||+||||||.||||||||||||||.|||||+|
+DIQMTQSPSFLSASVGDRVTITCKASQNVGTNVAWYQQKPGQAPKLLIYSASFLYSGVPSRFSGSGSGTDFTLTISTLQSEDLATYFCQQYNIYPLTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Clazakizumab VH (Humanized by BioPhi Sapiens)
+QSLEESGGRLVTPGTPLTLTCTASGFSLSNYYVTWVRQAPGKGLEWIGIIYGSDETAYATWAIGRFTISKTSTTVDLKMTSLTAADTATYFCARDDSSDWDAKFNLWGQGTLVTVSS
+..||||||.||.||.||||+|||||||||||||||||||||||||||||||||||||||||||||.||.|+..||.|||||||||||||||||||||||||||||||||||||||||
+VQLEESGGGLVQPGEPLTLSCTASGFSLSNYYVTWVRQAPGKGLEWIGIIYGSDETAYATWAIGRITIDKSKNTVYLKMTSLTAADTATYFCARDDSSDWDAKFNLWGQGTLVTVSS
+                         °°°°^^^^^           °°°^^^^^^^^^^^^^^^^ ° ° ° °  °                 °°^^^^^^^^^^^^°          
+Clazakizumab VL (Humanized by BioPhi Sapiens)
+AYDMTQTPASVSAAVGGTVTIKCQASQSINNELSWYQQKPGQRPKLLIYRASTLASGVSSRFKGSGSGTEFTLTISDLECADAATYYCQQGYSLRNIDNAFGGGTEVVVK
+...|||+|+||||+||.||||.||||||||||||||||||||.|||||||||||||||.|||.|||||||||||||.|+..||||||||||||||||||||||||+|.||
+DIQMTQSPSSVSASVGDTVTITCQASQSINNELSWYQQKPGQAPKLLIYRASTLASGVPSRFSGSGSGTEFTLTISSLQPEDAATYYCQQGYSLRNIDNAFGGGTKVEVK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^^^^°         
+
+Crizanlizumab VH (Humanized by BioPhi Sapiens)
+QVQLQQSGPELVKPGALVKISCKASGYTFTSYDINWVKQRPGQGLEWIGWIYPGDGSIKYNEKFKGKATLTVDKSSSTAYMQVSSLTSENSAVYFCARRGEYGNYEGAMDYWGQGTTVTVSS
+||||.||||||.||||.||||||||||||||||||||+|.|||||||+||||||||||||||||||+.|||||||||||||||||||||++|||||||||||||||||||||||||||||||
+QVQLVQSGPELKKPGASVKISCKASGYTFTSYDINWVRQAPGQGLEWMGWIYPGDGSIKYNEKFKGRVTLTVDKSSSTAYMQVSSLTSEDTAVYFCARRGEYGNYEGAMDYWGQGTTVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^^°          
+Crizanlizumab VL (Humanized by BioPhi Sapiens)
+DIVLTQSPASLAVSLGQRATISCKASQSVDYDGHSYMNWYQQKPGQPPKLLIYAASNLESGIPARFSGSGSGTDFTLNIHPVEEEDAATYYCQQSDENPLTFGTGTKLELK
+||||||||||||||.|+||||||||||||||||||||||||||||||||||||||||||||+|.|||||||||||||.|..||.||.|.||||||||||||||.|||||+|
+DIVLTQSPASLAVSPGERATISCKASQSVDYDGHSYMNWYQQKPGQPPKLLIYAASNLESGVPDRFSGSGSGTDFTLTISRVEAEDVAVYYCQQSDENPLTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Eculizumab VH (Humanized by BioPhi Sapiens)
+QVQLQQSGAELMKPGASVKMSCKATGYIFSNYWIQWIKQRPGHGLEWIGEILPGSGSTEYTENFKDKAAFTADTSSNTAYMQLSSLTSEDSAVYYCARYFFGSSPNWYFDVWGAGTTVTVSS
+||||.|||||+.|||||||+||||+|||||||||||++|.||.|||||||||||||||||||||||+.|||||||||||||+||||||||+||||||||||||||||||||||.||.|||||
+QVQLVQSGAEVKKPGASVKISCKASGYIFSNYWIQWVRQAPGQGLEWIGEILPGSGSTEYTENFKDRVAFTADTSSNTAYMELSSLTSEDTAVYYCARYFFGSSPNWYFDVWGRGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^^°          
+Eculizumab VL (Humanized by BioPhi Sapiens)
+DIQMTQSPASLSASVGETVTITCGASENIYGALNWYQRKQGKSPQLLIYGATNLADGMSSRFSGSGSGRQYYLKISSLHPDDVATYYCQNVLNTPLTFGAGTKLELK
+||||||||+|||||||+||||||||||||||||||||+|.||+||||||||||||||+||||||||||..+.|.||||.||||||||||||||||||||.|||||+|
+DIQMTQSPSSLSASVGDTVTITCGASENIYGALNWYQQKPGKAPQLLIYGATNLADGVSSRFSGSGSGTDFTLTISSLQPDDVATYYCQNVLNTPLTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Etaracizumab VH (Humanized by BioPhi Sapiens)
+EVQLEESGGGLVKPGGSLKLSCAASGFAFSSYDMSWVRQIPEKRLEWVAKVSSGGGSTYYLDTVQGRFTISRDNAKNTLYLQMSSLNSEDTAMYYCARHNYGSFAYWGQGTLVTVSA
+||||.|||||||||||||+||||||||.|||||||||||.|.|.||||||||||||||||||||||||||||||||||||||||||.+||||+|||||||||||||||||||||||+
+EVQLVESGGGLVKPGGSLRLSCAASGFTFSSYDMSWVRQAPGKGLEWVAKVSSGGGSTYYLDTVQGRFTISRDNAKNTLYLQMSSLRAEDTAVYYCARHNYGSFAYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^°          
+Etaracizumab VL (Humanized by BioPhi Sapiens)
+ELVMTQTPATLSVTPGDSVSLSCRASQSISNHLHWYQQKSHESPRLLIKYASQSISGIPSRFSGSGSGTDFTLSINSVETEDFGMYFCQQSNSWPHTFGGGTKLEIK
+|+||||+||||||+|||||+|||||||||||||||||||..+|||||||||||||||||||||||||||||||+|||+|.|||.+||||||||||||||.|||||||
+EIVMTQSPATLSVSPGDSVTLSCRASQSISNHLHWYQQKPGQSPRLLIKYASQSISGIPSRFSGSGSGTDFTLTINSLEPEDFAVYFCQQSNSWPHTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Herceptin VH (Humanized by BioPhi Sapiens)
+QVQLQQSGPELVKPGASLKLSCTASGFNIKDTYIHWVKQRPEQGLEWIGRIYPTNGYTRYDPKFQDKATITADTSSNTAYLQVSRLTSEDTAVYYCSRWGGDGFYAMDYWGQGASVTVSS
+||||.||||||.||||||||||||||+|..|||||||+|.|.||||||||||||||||||||||||+.||||||||||||||||||||.|||||||+||||||||||||||||..|||||
+QVQLVQSGPELKKPGASLKLSCTASGYNFTDTYIHWVRQAPGQGLEWIGRIYPTNGYTRYDPKFQDRVTITADTSSNTAYLQVSRLTSSDTAVYYCARWGGDGFYAMDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^°          
+Herceptin VL (Humanized by BioPhi Sapiens)
+DIVMTQSHKFMSTSVGDRVSITCKASQDVNTAVAWYQQKPGHSPKLLIYSASFRYTGVPDRFTGNRSGTDFTFTISSVQAEDLAVYYCQQHYTTPPTFGGGTKVEIK
+||.||||..|+|.||||||+|||||||||||||||||||||.+||||||||||||||||.||+|+.||||||.||||+|.||||.||||||||||||||||||||||
+DIQMTQSPSFLSASVGDRVTITCKASQDVNTAVAWYQQKPGKAPKLLIYSASFRYTGVPSRFSGSGSGTDFTLTISSLQPEDLATYYCQQHYTTPPTFGGGTKVEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Idarucizumab VH (Humanized by BioPhi Sapiens)
+QVQLEQSGPGLVAPSQRLSITCTVSGFSLTSYIVDWVRQSPGKGLEWLGVIWAGGSTGYNSALRSRLSITKSNSKSQVFLQMNSLQTDDTAIYYCASAAYYSYYNYDGFAYWGQGTLVTVSA
+|||||+||||||.|||.||+||||||.|||||||||||||||||||||||||||||||||||||||||||...||||||||||||...||||||||.||||||||||||||||||||||||+
+QVQLEESGPGLVKPSQTLSLTCTVSGGSLTSYIVDWVRQSPGKGLEWLGVIWAGGSTGYNSALRSRLSITLDTSKSQVFLQMNSLTAADTAIYYCARAAYYSYYNYDGFAYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^^^°          
+Idarucizumab VL (Humanized by BioPhi Sapiens)
+DVVMTQTPLTLSVTIGQPASISCKSSQSLLYTNGKTYLYWLLQRPGQSPKRLIYLVSKLDSGVPDRFSGSGSGTDFTLKISRVEAEDVGIYYCLQSTHFPHTFGGGTKLEIK
+||||||+||+||||.|||||||||||||||||||||||||..|||||||+||||||||||||||||||||||||||||||||||||||||||||||||||||||.|||||||
+DVVMTQSPLSLSVTPGQPASISCKSSQSLLYTNGKTYLYWFQQRPGQSPRRLIYLVSKLDSGVPDRFSGSGSGTDFTLKISRVEAEDVGIYYCLQSTHFPHTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Ixekizumab VH (Humanized by BioPhi Sapiens)
+QVQLQQSRPELVKPGASVKISCKASGYSFTDYNMNWVKQSNGKSLEWIGVINPNYGTTDYNQRFKGKATLTVDQSSRTAYMQLNSLTSEDSAVYYCVIYDYATGTGGYWGQGSPLTVSS
+||||.||.|||.|||||||||||||||||||||||||+|+.||.||||||||||||||||||||||+.|||.|.||||||||||||||||+|||||||||||||||||||||+.+||||
+QVQLVQSGPELKKPGASVKISCKASGYSFTDYNMNWVRQAPGKGLEWIGVINPNYGTTDYNQRFKGRVTLTRDTSSRTAYMQLNSLTSEDTAVYYCVIYDYATGTGGYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^°          
+Ixekizumab VL (Humanized by BioPhi Sapiens)
+DVVLTQTPLSLPVSLGDQASISCRSSQSLVHSNGNTYLHWYLQKPGQSPKLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDLGVYFCSQSTHVPFTFGSGTKLEIK
+|||+|||||||||+||..|||||||||||||||||||||||||||||||+|||||||||||||||||||||||||||||||||||||+|||+||||||||||||.|||||||
+DVVMTQTPLSLPVTLGQPASISCRSSQSLVHSNGNTYLHWYLQKPGQSPQLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCSQSTHVPFTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Ligelizumab VH (Humanized by BioPhi Sapiens)
+QVQLQQSGAELMKPGASVKISCKTTGYTFSMYWLEWVKQRPGHGLEWVGEISPGTFTTNYNEKFKAKATFTADTSSNTAYLQLSGLTSEDSAVYFCARFSHFSGSNYDYFDYWGQGTSLTVSS
+||||.|||||+.||||||||||||+||||||||||||+|.||.|||||||||||||||||||||||+.||||||||||||||||||||||+||||||||||||||||||||||||||.+||||
+QVQLVQSGAEVKKPGASVKISCKTSGYTFSMYWLEWVRQAPGQGLEWVGEISPGTFTTNYNEKFKARVTFTADTSSNTAYLQLSGLTSEDTAVYFCARFSHFSGSNYDYFDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^^^°          
+Ligelizumab VL (Humanized by BioPhi Sapiens)
+DILLTQSPAILSVSPGERVSFSCRASQSIGTNIHWYQQRTDGSPRLLIKYASESISGIPSRFSGSGSGTEFTLNINSVESEDIADYYCQQSDSWPTTFGGGTKLEIK
+|||||||||.|||||||||+.||||||||||||||||||...||||||.||||||||||||||||||||||||.|||+||||.|.||||||||||||||.|||+|||
+DILLTQSPATLSVSPGERVTLSCRASQSIGTNIHWYQQRPGQSPRLLIYYASESISGIPSRFSGSGSGTEFTLTINSLESEDFAVYYCQQSDSWPTTFGQGTKVEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Lorvotuzumab VH (Humanized by BioPhi Sapiens)
+DVQLVESGGGLVQPGGSRKLSCAASGFTFSSFGMHWVRQAPEKGLEWVAYISSGSFTIYHADTVKGRFTISRDNPKNTLFLQMTSLRAEDTAHYYCARMRKGYAMDYWGQGTTVTVSS
++||||||||||||||||.+||||||||||||||||||||||.||||||||||||||||||||||||||||||||.||+|||||.||||||||.|||||||||||||||||||||||||
+EVQLVESGGGLVQPGGSLRLSCAASGFTFSSFGMHWVRQAPGKGLEWVAYISSGSFTIYHADTVKGRFTISRDNSKNSLFLQMNSLRAEDTAVYYCARMRKGYAMDYWGQGTTVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^°          
+Lorvotuzumab VL (Humanized by BioPhi Sapiens)
+DVLMTQTPLSLPVSLGDQASISCRSSQIIIHSDGNTYLEWFLQKPGQSPKLLIYKVSNRFSGVPDRFSGSGSGTDFTLMISRVEAEDLGVYYCFQGSHVPHTFGGGTKLEIK
+||+||||||||||+||..|||||||||||||||||||||||||||||||+||||||||||||||||||||||||||||.||||||||+||||||||||||||||.|||||||
+DVVMTQTPLSLPVTLGQPASISCRSSQIIIHSDGNTYLEWFLQKPGQSPQLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCFQGSHVPHTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Mogamulizumab VH (Humanized by BioPhi Sapiens)
+EVQLVESGGDLMKPGGSLKISCAASGFIFSNYGMSWVRQTPDMRLEWVATISSASTYSYYPDSVKGRFTISRDNAENSLYLQMNSLRSEDTGIYYCGRHSDGNFAFGYWGRGTLVTVSA
+|||||||||.|+||||||++|||||||||||||||||||.|...|||||||||||||||||||||||||||||||||||||||||||+|||.||||.|||||||||||||+|||||||+
+EVQLVESGGGLVKPGGSLRLSCAASGFIFSNYGMSWVRQAPGKGLEWVATISSASTYSYYPDSVKGRFTISRDNAENSLYLQMNSLRAEDTAIYYCARHSDGNFAFGYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^°          
+Mogamulizumab VL (Humanized by BioPhi Sapiens)
+DVLMTQTPLSLPVSLGDQASISCRSSRNIVHINGDTYLEWYLQRPGQSPKLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDLGVYYCFQGSLLPWTFGGGTRLEIR
+||+|||+||||||+||..|||||||||||||||||||||||||||||||+|||||||||||||||||||||||||||||||||||||+||||||||||||||||.||||||+
+DVVMTQSPLSLPVTLGQPASISCRSSRNIVHINGDTYLEWYLQRPGQSPQLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCFQGSLLPWTFGQGTRLEIK
+ ° °                   ^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Omalizumab VH (Humanized by BioPhi Sapiens)
+DVQLQESGPGLVKPSQSLSLACSVTGYSITSGYSWNWIRQFPGNKLEWMGSITYDGSSNYNPSLKNRISVTRDTSQNQFFLKLNSATAEDTATYYCARGSHYFGHWHFAVWGAGTTVTVSS
+.|||||||||||||||+|||.|||+|||||||||||||||.||..|||+|||||||||||||||||||||+.|||+|||.|||||.||.|||.|||||||||||||||||||.||||||||
+QVQLQESGPGLVKPSQTLSLTCSVSGYSITSGYSWNWIRQPPGKGLEWIGSITYDGSSNYNPSLKNRISVSVDTSKNQFSLKLNSVTAADTAVYYCARGSHYFGHWHFAVWGKGTTVTVSS
+ °                        °°°°^^^^^^           °°°^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^°          
+Omalizumab VL (Humanized by BioPhi Sapiens)
+DIQLTQSPASLAVSLGQRATISCKASQSVDYDGDSYMNWYQQKPGQPPILLIYAASYLGSEIPARFSGSGSGTDFTLNIHPVEEEDAATFYCQQSHEDPYTFGAGTKLEIK
+||.|||||||||||||+|||||||||||||||||||||||||||||||.|||||||||||.+|.|||||||||||||.|..||.||.|.+|||||||||||||.|||||||
+DIVLTQSPASLAVSLGERATISCKASQSVDYDGDSYMNWYQQKPGQPPKLLIYAASYLGSGVPDRFSGSGSGTDFTLTISRVEAEDVAVYYCQQSHEDPYTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Palivizumab VH (Humanized by BioPhi Sapiens)
+QVELQESGPGILQPSQTLSLTCSFSGFSLSTSGMSVGWIRQPSGEGLEWLADIWWDDKKDYNPSLKSRLTISKDTSSNQVFLKITGVDTADTATYYCARSMITNWYFDVWGAGTTVTVSS
+||.|||||||+++|||||||||||||||||||||||||||||.|+.||||||||||||||||||||||||||||||.||||||+|.||.||||||||||||||||||||||.||.|||||
+QVTLQESGPGLVKPSQTLSLTCSFSGFSLSTSGMSVGWIRQPPGKALEWLADIWWDDKKDYNPSLKSRLTISKDTSKNQVFLKMTNVDPADTATYYCARSMITNWYFDVWGRGTLVTVSS
+ °                        °°°°^^^^^^^           °°°^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^°          
+Palivizumab VL (Humanized by BioPhi Sapiens)
+DIQLTQSPAIMSASPGEKVTMTCSASSSVGYMHWYQQKSSTSPKLWIYDTSKLASGVPGRFSGSGSGNSYSLTISSIQAEDVATYYCFQGSGYPFTFGQGTKLEIK
+||.|||||||+|||||||||+|||||||||||||||||...+|||.||||||||||||.||||||||..+||||||+|||||||||||||||||||||||||||||
+DIVLTQSPAILSASPGEKVTLTCSASSSVGYMHWYQQKPGKAPKLLIYDTSKLASGVPSRFSGSGSGTDFSLTISSLQAEDVATYYCFQGSGYPFTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Pembrolizumab VH (Humanized by BioPhi Sapiens)
+QVQLQQPGAELVKPGTSVKLSCKASGYTFTNYYMYWVKQRPGQGLEWIGGINPSNGGTNFNEKFKNKATLTVDSSSSTTYMQLSSLTSEDSAVYYCTRRDYRFDMGFDYWGQGTTLTVSS
+||||.|.|||+.|||.|||+|||||||||||||||||+|.|||||||+||||||||||||||||||+.|||.|+|+||.||+||||||||+|||||.|||||||||||||||||.+||||
+QVQLVQSGAEVKKPGASVKVSCKASGYTFTNYYMYWVRQAPGQGLEWMGGINPSNGGTNFNEKFKNRVTLTRDTSTSTAYMELSSLTSEDTAVYYCARRDYRFDMGFDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^°          
+Pembrolizumab VL (Humanized by BioPhi Sapiens)
+DIVLTQSPASLAVSLGQRAAISCRASKGVSTSGYSYLHWYQQKPGQSPKLLIYLASYLESGVPARFSGSGSGTDFTLNIHPVEEEDAATYYCQHSRDLPLTFGTGTKLELK
+||||||||||||||||+||||||||||||||||||||||||||||||||||||||||||||||.|||||||||||||.|..||.||.|.||||||||||||||.|||||+|
+DIVLTQSPASLAVSLGERAAISCRASKGVSTSGYSYLHWYQQKPGQSPKLLIYLASYLESGVPDRFSGSGSGTDFTLTISRVEAEDVAVYYCQHSRDLPLTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Pertuzumab VH (Humanized by BioPhi Sapiens)
+EVQLQQSGPELVKPGTSVKISCKASGFTFTDYTMDWVKQSHGKSLEWIGDVNPNSGGSIYNQRFKGKASLTVDRSSRIVYMELRSLTFEDTAVYYCARNLGPSFYFDYWGQGTTLTVSS
+||||.||||||.|||.|||||||||||||||||||||+|+.||.||||||||||||||||||||||+.|||.|.|||.|||||||||||||||||||||||||||||||||||.+||||
+EVQLVQSGPELKKPGASVKISCKASGFTFTDYTMDWVRQAPGKGLEWIGDVNPNSGGSIYNQRFKGRFSLTRDTSSRTVYMELRSLTFEDTAVYYCARNLGPSFYFDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^°          
+Pertuzumab VL (Humanized by BioPhi Sapiens)
+DTVMTQSHKIMSTSVGDRVSITCKASQDVSIGVAWYQQRPGQSPKLLIYSASYRYTGVPDRFTGSGSGTDFTFTISSVQAEDLAVYYCQQYYIYPYTFGGGTKLEIK
+|..||||...+|.||||||+||||||||||||||||||||||+||||||||||||||||.||+|||||||||.||||+||||||.||||||||||||||.|||||||
+DIQMTQSPSSLSASVGDRVTITCKASQDVSIGVAWYQQRPGQAPKLLIYSASYRYTGVPSRFSGSGSGTDFTLTISSLQAEDLATYYCQQYYIYPYTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Pinatuzumab VH (Humanized by BioPhi Sapiens)
+QVQLQQSGPELVKPGASVKISCKASGYEFSRSWMNWVKQRPGQGREWIGRIYPGDGDTNYSGKFKGKATLTADKSSSTAYMQLSSLTSVDSAVYFCARDGSSWDWYFDVWGAGTTVTVSS
+||||.||||||.|||||||||||||||.|||||||||+|.||||.|||||||||||||||||||||+.||||||||||||||||||||.|+||||||||||||||||||||.||.|||||
+QVQLVQSGPELKKPGASVKISCKASGYTFSRSWMNWVRQAPGQGLEWIGRIYPGDGDTNYSGKFKGRVTLTADKSSSTAYMQLSSLTSEDTAVYFCARDGSSWDWYFDVWGRGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^°          
+Pinatuzumab VL (Humanized by BioPhi Sapiens)
+DILMTQTPLSLPVSLGDQASISCRSSQSIVHSNGNTFLEWYLQKPGQSPKLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDLGVYYCFQGSQFPYTFGGGTKVEIK
+||+||||||||||+||..|||||||||||||||||||||||||||||||+|||||||||||||||||||||||||||||||||||||+||||||||||||||||||||||||
+DIVMTQTPLSLPVTLGQPASISCRSSQSIVHSNGNTFLEWYLQKPGQSPQLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCFQGSQFPYTFGGGTKVEIK
+ ° °                   ^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Refanezumab VH (Humanized by BioPhi Sapiens)
+EIQLVQSGPELKKPGETNKISCKASGYTFTNYGMNWVKQAPGKGLKWMGWINTYTGEPTYADDFTGRFAFSLETSASTAYLQISNLKNEDTATYFCARNPINYYGINYEGYVMDYWGQGTLVTVSS
+|+||||||.||||||.+.|||||||||||||||||||+||||+||+||||||||||||||||||||||.|||+||.|||||||||||.||||.|||||||||||||||||||||||||||||||||
+EVQLVQSGSELKKPGASVKISCKASGYTFTNYGMNWVRQAPGQGLEWMGWINTYTGEPTYADDFTGRFVFSLDTSVSTAYLQISNLKAEDTAVYFCARNPINYYGINYEGYVMDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^^^^^^^°          
+Refanezumab VL (Humanized by BioPhi Sapiens)
+NIMMTQSPSSLAVSAGEKVTMSCKSSHSVLYSSNQKNYLAWYQQKPGQSPKLLIYWASTRESGVPDRFTGSGSGTDFTLTIINVHTEDLAVYYCHQYLSSLTFGTGTKLEIK
++|+|||||.|||||.||+.|++||||||||||||||||||||||||||.|||||||||||||||||||+||||||||||||.|+..||+|||||||||||||||.|||||||
+DIVMTQSPDSLAVSLGERATINCKSSHSVLYSSNQKNYLAWYQQKPGQPPKLLIYWASTRESGVPDRFSGSGSGTDFTLTISNLQAEDVAVYYCHQYLSSLTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^°         
+
+Reslizumab VH (Humanized by BioPhi Sapiens)
+EVKLLESGGGLVQPSQTLSLTCTVSGLSLTSNSVNWIRQPPGKGLEWMGLIWSNGDTDYNSAIKSRLSISRDTSKSQVFLKMNSLQSEDTAMYFCAREYYGYFDYWGQGVMVTVSS
++|+|||||.|||+||+||||||||||.||||||||||||||||||||+|||||||||||||||||||+|||||||||||||||||.+||||||||||||||||||||||.+|||||
+QVQLLESGPGLVKPSETLSLTCTVSGGSLTSNSVNWIRQPPGKGLEWIGLIWSNGDTDYNSAIKSRLTISRDTSKSQVFLKMNSLTAEDTAMYFCAREYYGYFDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^°          
+Reslizumab VL (Humanized by BioPhi Sapiens)
+DIQMTQSPASLSASLGETISIECLASEGISSYLAWYQQKPGKSPQLLIYGANSLQTGVPSRFSGSGSATQYSLKISSMQPEDEGDYFCQQSYKFPNTFGAGTKLELK
+||||||||+|||||+|+|++|.||||||||||||||||||||+|+||||||||||||||||||||||.|.+||.|||+||||...||||||||||||||.|||||+|
+DIQMTQSPSSLSASVGDTVTITCLASEGISSYLAWYQQKPGKAPKLLIYGANSLQTGVPSRFSGSGSGTDFSLTISSLQPEDFATYFCQQSYKFPNTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Rovalpituzumab VH (Humanized by BioPhi Sapiens)
+QIQLVQSGPELKKPGETVKISCKASGYTFTNYGMNWVKQAPGKGLKWMAWINTYTGEPTYADDFKGRFAFSLETSASTASLQIINLKNEDTATYFCARIGDSSPSDYWGQGTTLTVSS
+|+||||||.||||||.+||||||||||||||||||||+||||+||+||.|||||||||||||||||||.|||+||.|||.|||.|||.||||.|||||||||||||||||||.+||||
+QVQLVQSGSELKKPGASVKISCKASGYTFTNYGMNWVRQAPGQGLEWMGWINTYTGEPTYADDFKGRFVFSLDTSVSTAYLQISNLKAEDTAVYFCARIGDSSPSDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^°          
+Rovalpituzumab VL (Humanized by BioPhi Sapiens)
+SIVMTQTPKFLLVSAGDRVTITCKASQSVSNDVVWYQQKPGQSPKLLIYYASNRYTGVPDRFAGSGYGTDFSFTISTVQAEDLAVYFCQQDYTSPWTFGGGTKLEIR
+.|||||+|.||.||.|||||||||||||||||||||||||||+||||||||||||||||.||+|||.||||+.|||++|||||||||||||||||||||.|||+||+
+EIVMTQSPAFLSVSPGDRVTITCKASQSVSNDVVWYQQKPGQAPKLLIYYASNRYTGVPSRFSGSGSGTDFTLTISSLQAEDLAVYFCQQDYTSPWTFGQGTKVEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Solanezumab VH (Humanized by BioPhi Sapiens)
+EVKLVESGGGLVQPGGSLKLSCAVSGFTFSRYSMSWVRQTPEKRLELVAQINSVGNSTYYPDTVKGRFTISRDNAEYTLSLQMSGLRSDDTATYYCASGDYWGQGTTLTVSS
+||+|||||||||||||||+||||||||||||||||||||.|.|.||.|||||||||||||||||||||||||||||.|||||||.||+||||.|||||||||||||.+||||
+EVQLVESGGGLVQPGGSLRLSCAVSGFTFSRYSMSWVRQAPGKGLEWVAQINSVGNSTYYPDTVKGRFTISRDNAENTLSLQMSSLRADDTAVYYCASGDYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^°          
+Solanezumab VL (Humanized by BioPhi Sapiens)
+DVVMTQTPLSLPVSLGDQASISCRSSQSLIYSDGNAYLHWFLQKPGQSPKLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVETEDLGVYFCSQSTHVPWTFGGGTKLEIK
+|||||||||||||+||..|||||||||||||||||||||||||||||||+||||||||||||||||||||||||||||||||||.||+|||+||||||||||||.|||+|||
+DVVMTQTPLSLPVTLGQPASISCRSSQSLIYSDGNAYLHWFLQKPGQSPQLLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCSQSTHVPWTFGQGTKVEIK
+ ° °                   ^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Talacotuzumab VH (Humanized by BioPhi Sapiens)
+EVQLQQSGPELVKPGASVKMSCKASGYTFTDYYMKWVKQSHGKSLEWIGDIIPSNGATFYNQKFKGKATLTVDRSSSTAYMHLNSLTSEDSAVYYCTRSHLLRASWFAYWGQGTLVTVSA
+||||.|||||+.|||||||+|||||||||||||||||+|+.||.|||+||||||||||||||||||+.|||||.|||||||.||||||||+|||||.||||||||||||||||||||||+
+EVQLVQSGPEVKKPGASVKVSCKASGYTFTDYYMKWVRQAPGKGLEWMGDIIPSNGATFYNQKFKGRVTLTVDTSSSTAYMELNSLTSEDTAVYYCARSHLLRASWFAYWGQGTLVTVSS
+ °                        °°°°^^^^^           °°°^^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^^°          
+Talacotuzumab VL (Humanized by BioPhi Sapiens)
+DFVMTQSPSSLTVTAGEKVTMSCKSSQSLLNSGNQKNYLTWYLQKPGQPPKLLIYWASTRESGVPDRFTGSGSGTDFTLTISSVQAEDLAVYYCQNDYSYPYTFGGGTKLEIK
+|.||||||.||.|+.||+.|+|||||||||||||||||||||.|||||||||||||||||||||||||+||||||||||||||+||||+||||||||||||||||.|||||||
+DIVMTQSPDSLAVSLGERATISCKSSQSLLNSGNQKNYLTWYQQKPGQPPKLLIYWASTRESGVPDRFSGSGSGTDFTLTISSLQAEDVAVYYCQNDYSYPYTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         
+
+Tocilizumab VH (Humanized by BioPhi Sapiens)
+DVQLQESGPVLVKPSQSLSLTCTVTGYSITSDHAWSWIRQFPGNKLEWMGYISYSGITTYNPSLKSRISITRDTSKNQFFLQLNSVTTGDTSTYYCARSLARTTAMDYWGQGTSVTVSS
+.||||||||.||||||+|||||||+|||||||||||||||.||..|||+|||||||||||||||||||||+.|||||||.|||||||..||+.||||||||||||||||||||.|||||
+QVQLQESGPGLVKPSQTLSLTCTVSGYSITSDHAWSWIRQPPGKGLEWIGYISYSGITTYNPSLKSRISISVDTSKNQFSLQLNSVTAADTAVYYCARSLARTTAMDYWGQGTLVTVSS
+ °                        °°°°^^^^^^           °°°^^^^^^^^^^^^^^^^ ° ° ° °    °                 °°^^^^^^^^^^°          
+Tocilizumab VL (Humanized by BioPhi Sapiens)
+DIQMTQTTSSLSASLGDRVTISCRASQDISSYLNWYQQKPDGTIKLLIYYTSRLHSGVPSRFSGSGSGTDYSLTINNLEQEDIATYFCQQGNTLPYTFGGGTKLEIN
+||||||+.||||||+||||||+||||||||||||||||||....||||||||||||||||||||||||||++||||||+.|||||||||||||||||||.||||||.
+DIQMTQSPSSLSASVGDRVTITCRASQDISSYLNWYQQKPGKAPKLLIYYTSRLHSGVPSRFSGSGSGTDFTLTINNLQPEDIATYFCQQGNTLPYTFGQGTKLEIK
+ ° °                   ^^^^^^^^^^^°°         °°°°^^^^^^^       ° ° °° °                 ^^^^^^^^^°         

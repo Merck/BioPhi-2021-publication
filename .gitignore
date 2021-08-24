@@ -1,0 +1,14 @@
+.ipynb_checkpoints
+__pycache__
+*.pyc
+*.egg-info
+/condaenv
+log
+.DS_Store
+work
+~*
+
+data/tasks/therapeutic_rediscovery/oas_hits/heavy
+data/tasks/therapeutic_rediscovery/oas_hits/light
+data/tasks/therapeutic_rediscovery/oas_cdr_hits/heavy
+data/tasks/therapeutic_rediscovery/oas_cdr_hits/light

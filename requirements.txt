@@ -1,0 +1,15 @@
+jupyterlab
+matplotlib
+pandas
+biopython
+seaborn
+scikit-learn
+scikit-bio
+tqdm
+xlrd
+logomaker
+matplotlib-venn
+lxml
+umap-learn
+fastcluster
+numpy
