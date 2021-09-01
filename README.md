@@ -21,7 +21,7 @@ See more about each evaluation task in [data/tasks](data/tasks):
 - [Sapiens: humanization evaluation using Hu-mAb 25 pairs](data/tasks/humab_25_pairs)
 - [Sapiens: humanization evaluation using rediscovery of 152 therapeutics](data/tasks/therapeutic_rediscovery)
 - [Sapiens: attention analysis](data/tasks/attention)
-- Sapiens: training scripts available on request (david.prihoda1@merck.com)
+- Sapiens: training scripts available on request (david.prihoda@vscht.cz)
 
 This data is processed and visualized using the provided [notebooks](notebooks).
 
