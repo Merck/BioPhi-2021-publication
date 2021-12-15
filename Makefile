@@ -1,7 +1,8 @@
 SHELL := /bin/bash
 
 CONDA_ACTIVATE = source $$(conda info --base)/bin/activate
-CONDA_BIOPHI_ENV = $(CONDA_ACTIVATE) biophi
+BIOPHI_ENV_NAME = biophi
+CONDA_BIOPHI_ENV = $(CONDA_ACTIVATE) $(BIOPHI_ENV_NAME)
 
 SOURCE_DATA := ../oas-dataset/data
 TRAIN_DATA := ../oas-training/data
@@ -10,7 +11,7 @@ HUMAN_STUDY_PATHS := $(shell cut -f1 $(SOURCE_DATA)/human/meta/studies.tsv 2>/de
 MOUSE_STUDY_PATHS := $(shell cut -f1 $(SOURCE_DATA)/mouse/meta/studies.tsv 2>/dev/null | tail -n +2)
 ALL_STUDY_PATHS := $(shell cut -f1 $(SOURCE_DATA)/all/meta/studies.tsv 2>/dev/null | tail -n +2)
 
-BIOPHI_OAS_DB := ../biophi/work/oas_clean_human_subject_9mers_2019_11.db
+BIOPHI_OAS_DB := ../../biophi/work/OASis_9mers_v1.db
 
 #-------------#
 # Environment #
@@ -51,12 +52,26 @@ data/%_oasis.xlsx: data/%.fa
 	$(CONDA_BIOPHI_ENV) && biophi oasis \
         $< \
         --output $@ \
-        --oas-db $(BIOPHI_OAS_DB)
+        --oasis-db $(BIOPHI_OAS_DB)
+
+# Generate OASis IMGT scheme humanness report using any FASTA file
+# Example: Use "make data/my/file_oasis_imgt.xlsx" to run OASis on "data/my/file.fa"
+data/%_oasis_imgt.xlsx: data/%.fa
+	$(CONDA_BIOPHI_ENV) && biophi oasis \
+        $< \
+        --output $@ \
+        --scheme imgt \
+        --oasis-db $(BIOPHI_OAS_DB)
 
 # Generate % germline content using any FASTA file
 # Example: Use "make data/my/file_GC.tsv" to run germline content on "make data/my/file.fa"
 data/%_GC.tsv: data/%.fa
 	bin/humanness_germline_content.py $< $@
+
+# Generate positional germline content using any FASTA file
+# Example: Use "make data/my/file_GC_per_position.tsv" to run germline content on "make data/my/file.fa"
+data/%_GC_per_position.tsv: data/%.fa
+	bin/humanness_germline_content.py $< $@ --scheme kabat --per-position
 
 # Generate T20 humanness score using any FASTA file
 # Example: Use "make data/my/file_T20.tsv" to run T20 on "make data/my/file.fa"
@@ -106,7 +121,7 @@ data/tasks/humab_25_pairs/predicted/sapiens1: data/tasks/humab_25_pairs/pairs/pa
         $< \
         --output $@ \
         --version v1 \
-        --oas-db $(BIOPHI_OAS_DB) \
+        --oasis-db $(BIOPHI_OAS_DB) \
         --iterations 1
         
 
@@ -115,7 +130,7 @@ data/tasks/humab_25_pairs/predicted/sapiens2: data/tasks/humab_25_pairs/pairs/pa
         $< \
         --output $@ \
         --version v1 \
-        --oas-db $(BIOPHI_OAS_DB) \
+        --oasis-db $(BIOPHI_OAS_DB) \
         --iterations 2
         
 
@@ -124,7 +139,7 @@ data/tasks/humab_25_pairs/predicted/sapiens3: data/tasks/humab_25_pairs/pairs/pa
         $< \
         --output $@ \
         --version v1 \
-        --oas-db $(BIOPHI_OAS_DB) \
+        --oasis-db $(BIOPHI_OAS_DB) \
         --iterations 3
         
 
@@ -133,7 +148,7 @@ data/tasks/humab_25_pairs/predicted/sapiens4: data/tasks/humab_25_pairs/pairs/pa
         $< \
         --output $@ \
         --version v1 \
-        --oas-db $(BIOPHI_OAS_DB) \
+        --oasis-db $(BIOPHI_OAS_DB) \
         --iterations 4
         
 
@@ -142,8 +157,18 @@ data/tasks/humab_25_pairs/predicted/sapiens5: data/tasks/humab_25_pairs/pairs/pa
         $< \
         --output $@ \
         --version v1 \
-        --oas-db $(BIOPHI_OAS_DB) \
+        --oasis-db $(BIOPHI_OAS_DB) \
         --iterations 5
+
+
+data/tasks/humab_25_pairs/predicted/sapiens_chothia1.fa: data/tasks/humab_25_pairs/pairs/parental.fa
+	$(CONDA_BIOPHI_ENV) && biophi sapiens $< --output $@ --fasta-only --scheme chothia --cdr-definition chothia --version v1
+    
+data/tasks/humab_25_pairs/predicted/sapiens_chothia2.fa: data/tasks/humab_25_pairs/predicted/sapiens_chothia1.fa
+	$(CONDA_BIOPHI_ENV) && biophi sapiens $< --output $@ --fasta-only --scheme chothia --cdr-definition chothia --version v1
+    
+data/tasks/humab_25_pairs/predicted/sapiens_chothia3.fa: data/tasks/humab_25_pairs/predicted/sapiens_chothia2.fa
+	$(CONDA_BIOPHI_ENV) && biophi sapiens $< --output $@ --fasta-only --scheme chothia --cdr-definition chothia --version v1
 
 
 #-------------------------------#
@@ -303,6 +328,6 @@ data/tasks/ptm_mitigation/sapiens: data/tasks/ptm_mitigation/ptm_seqs_masked.fa
         $< \
         --output $@ \
         --version v1 \
-        --oas-db $(BIOPHI_OAS_DB) \
+        --oasis-db $(BIOPHI_OAS_DB) \
         --iterations 1
 
