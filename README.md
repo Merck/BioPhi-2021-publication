@@ -6,9 +6,8 @@
 
 This repository contains scripts, data and jupyter notebooks used to produce the evaluation results in the BioPhi 2021 publication:
 
-> Prihoda, D., Maamary, J., Waight, A., Juan, V., Fayadat-Dilman, L., Svozil, D., & Bitton, D. A. (2021). 
-> BioPhi: A platform for antibody design, humanization and humanness evaluation based on natural antibody repertoires and deep learning. BioRxiv, 2021.08.08.455394. https://doi.org/10.1101/2021.08.08.455394
-
+> David Prihoda, Jad Maamary, Andrew Waight, Veronica Juan, Laurence Fayadat-Dilman, Daniel Svozil & Danny A. Bitton (2022) 
+> BioPhi: A platform for antibody design, humanization, and humanness evaluation based on natural antibody repertoires and deep learning, mAbs, 14:1, DOI: https://doi.org/10.1080/19420862.2021.2020203
 
 ## Data
 
@@ -22,6 +21,7 @@ See more about each evaluation task in [data/tasks](data/tasks):
 - [Sapiens: humanization evaluation using rediscovery of 152 therapeutics](data/tasks/therapeutic_rediscovery)
 - [Sapiens: attention analysis](data/tasks/attention)
 - Sapiens: training scripts available on request (david.prihoda@vscht.cz)
+  - The trained model is available in the [Sapiens](https://github.com/Merck/Sapiens) repository or through [BioPhi](https://github.com/Merck/BioPhi)
 
 This data is processed and visualized using the provided [notebooks](notebooks).
 
